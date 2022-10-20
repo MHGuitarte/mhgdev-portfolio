@@ -15,6 +15,10 @@ module.exports = {
       spacing: {
         88: "22rem",
       },
+      borderWidth: {
+        DEFAULT: '1px',
+        1: '1px'
+      }
     },
   },
   plugins: [],
