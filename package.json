@@ -5,21 +5,21 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "prepare": "husky install",
-    "lint": "eslint --ext .ts,.js,.vue . --ignore-path .gitignore",
-    "lint:fix": "eslint --ext .ts,.js,.vue . --ignore-path .gitignore --fix",
-    "format": "prettier . --write"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
-    "@nuxtjs/tailwindcss": "^6.0.1",
-    "eslint": "^8.25.0",
+    "@nuxtjs/tailwindcss": "^6.1.0",
+    "@vueuse/nuxt": "^9.3.1",
+    "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
-    "nuxt": "2.15.8",
-    "prettier": "^2.7.1"
+    "nuxt": "3.0.0-rc.12",
+    "prettier": "^2.7.1",
+    "unplugin-icons": "^0.14.12",
+    "unplugin-vue-components": "^0.22.8"
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.5.0",
